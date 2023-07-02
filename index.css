@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #e3fae4;
+  background-image: url(https://images.pexels.com/photos/1602726/pexels-photo-1602726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size:100%;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.input-section label {
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 1.3rem;
+}
+
+.input-section input[type="number"], .input-section input[type="date"] {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.input-section button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.expenses-list {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+.delete-btn {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  font-size: 1.3rem;
+}
+
+.delete-btn:hover{
+ color: rgb(7, 6, 6);
+}
+
+#category-select,input{
+  font-size: 1.2rem;
+  background-color: white;
+  border-radius: 6px;
+  border: 2px solid green;
+  padding: 5px;
+}
+
+#add-btn{
+  width: 100px;
+  height: 40px;
+  font-size: 1.3rem;
+}
